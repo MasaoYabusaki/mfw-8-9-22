@@ -1,0 +1,25 @@
+:root{
+    --primary: purple;
+    --secondary: yellow;
+    --tertiary: brown;
+    --info: green;
+    --light: white;
+    --dark: black;
+    --gray: gray;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.text-danger{
+    color: aqua;
+}
+
+.bg-primary{
+    background-color: beige;
+}
+
+.btn-primary{
+    background-color: red;
+}

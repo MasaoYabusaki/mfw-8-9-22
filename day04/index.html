@@ -7,10 +7,32 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        li{
+            list-style: none;
+            padding: 10px;
+            border: 1px solid black;
+            width: 400px;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: stretch;
+            height: 500px;
+            border: red solid 1px;
+            flex-wrap: wrap;
+        }
+    </style>
+    <h1>Git Flow</h1>
+    <ol class="flex">
     <ul>
-        <li>create a branch from main/master</li>
+        <li style="order: 1">
+            create a branch from main/master
+        </li>
         <li>
-            make changes tot he code
+            make changes to the code
         </li>
         <li>
             commit the changes
